@@ -133,3 +133,14 @@ h3 span {
     padding-bottom: 4px;
     font-size: 14px;
 }
+@media only screen and (max-width: 425px) {
+    .content-box {
+        grid-template-columns: 100%;
+        grid-template-areas: "a""b""c";
+        margin: 0 30px;
+    }
+
+    .grid {
+        padding: 30px;
+    }
+}
